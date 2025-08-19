@@ -1,0 +1,42 @@
+
+<head>
+<!-- jquery CDN for dialog boxes -->
+<link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet">
+<script src = "https://code.jquery.com/jquery-1.10.2.js"> </script>
+<script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"> </script>
+<!-- CSS -->
+<style>
+   .ui-widget-header {
+      background: aqua;
+      color: blue;
+      font-size: 18px;
+   }
+   #dialog {
+      text-align: center;
+   }
+
+   button {
+      padding: 5px;
+      position: absolute;
+      right: 5px;
+      bottom: 0px;
+      background-color: aqua;
+   }
+</style>
+</head>
+<body>
+   <h2> Change button label to alert / confirmation box. </h2>
+   <h4> Changed the button label using JQuery Dialog() method. </h4>
+   <!-- content of the dialog box. -->
+   <div id = "dialog" title = "Alert Box">
+      <p> Welcome to the tutorialsPoint! </p>
+      <button> Submit Button </button>
+   </div>
+   <script>
+      // pop up the dialog box when web page loads
+      $(function () {
+         $("#dialog").dialog();
+      });
+   </script>
+</body>
+</html>

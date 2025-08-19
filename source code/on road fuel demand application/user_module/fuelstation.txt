@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>user home page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow:hidden ;
+  margin:10;
+  padding:0;
+  background-color: #82E0AA; //box sizing:border-box
+}
+
+.topnav a {
+  float: left;
+  border-right:1px solid #bbb;
+  color: white;
+  text-align: center;
+ padding: 10px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #F5B041 ;
+  color: green;
+}
+
+.topnav a.active {
+  background-color:#641E16;
+  color: white;
+}
