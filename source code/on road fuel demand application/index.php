@@ -16,7 +16,7 @@
 }
 img {
   border-radius: 10%;
-        img-shadow: 7px 7px 7px white,
+        box-shadow: 7px 7px 7px white,
 
         -5px -5px 5px white;
 }
