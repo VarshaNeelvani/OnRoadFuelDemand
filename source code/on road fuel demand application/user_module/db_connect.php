@@ -13,5 +13,5 @@ $conn = mysqli_connect($sname, $unmae, $password, $db_name, 3306);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 } else {
-    echo "Connected successfully!";
+    echo "";
 }
