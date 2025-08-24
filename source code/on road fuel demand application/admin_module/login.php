@@ -292,7 +292,7 @@ if (isset($_POST['admin_id']) && isset($_POST['password'])) {
             </svg>
             </i><input type="password"
               class="pass-input" placeholder="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"
-              title="Must contain at least one number and one uppercase and lowercase letter, and at least 6 or more characters" required maxlength="6" />
+              title="Must contain at least one number and one uppercase and lowercase letter, and at least 6 or more characters" />
           </div>
 
           <button class="sign-btn">Login</button>
