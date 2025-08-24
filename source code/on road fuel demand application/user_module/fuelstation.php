@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("localhost", "root", "", "id20499452_onroadfueldemand");
+$conn = mysqli_connect("b7xqzvtfanhnwhk0ydhl-mysql.services.clever-cloud.com", "ungq3eze6t76zt2v", "gKDg6YLdRDIADNXHy58g", "b7xqzvtfanhnwhk0ydhl", 3306);
 $sql = "SELECT DISTINCT shop_id FROM work_details";
 $res = mysqli_query($con, $sql);
 ?>

@@ -4,9 +4,9 @@
 
 <head>
 
-    <title>LOGIN</title>
+  <title>LOGIN</title>
 
-<style>
+  <style>
     * {
 
       box-sizing: content-box;
@@ -32,9 +32,9 @@
       align-items: center;
 
       justify-content: center;
-	  
 
-	  
+
+
 
     }
 
@@ -62,7 +62,7 @@
       height: 81px;
 
       border-radius: 75%;
-      background-image : url("small1.png");
+      background-image: url("small1.png");
 
       margin: 0 auto;
 
@@ -80,7 +80,7 @@
 
 
     .user-photo i {
-	width: 81px;
+      width: 81px;
       height: 81px;
       font-size: 60px;
       display: flex;
@@ -88,7 +88,7 @@
       align-items: center;
       line-height: 1.3;
       color: #ffffff;
-	 
+
     }
 
     .heading {
@@ -197,7 +197,7 @@
 
     .sign-btn:active {
 
-      background:  #641E16;
+      background: #641E16;
 
     }
 
@@ -215,163 +215,138 @@
       font-weight: 500;
 
     }
-
   </style>
 </head>
 
 <body background="bg10.jpg" style="background-repeat:no-repeat;background-size:100% 120%">
-<center>
-<h1> <font color= "white"> <i> ON ROAD FUEL DEMAND APPLICATION </i></font color></h1><br/>
-     <form  method="post">
-
-        
-
-        <?php if (isset($_GET['error'])) { ?>
-
-            <p class="error"><?php echo $_GET['error']; ?></p>
-
-        <?php } ?>
-
-        <div class="form-wrapper">
-
-    <div class="heading">Login Form</div>
+  <center>
+    <h1>
+      <font color="white"> <i> ON ROAD FUEL DEMAND APPLICATION </i></font color>
+    </h1><br />
+    <form method="post">
 
 
-    <div class="input-text">
 
-      <div class="username">
-	 <span>&#128222;</span>
-<input type="tel" class="user-input" 
-    placeholder="mobile number" name ="mobile_no" maxlength ="13" pattern="[+]{1}[0-9]{2}[0-9]{10}" required/>
-  <h6> Format: +919812345678</h6></div>
+      <?php if (isset($_GET['error'])) { ?>
 
-      <div class="password"><svg fill="#999" 
-    viewBox="0 0 1024 1024">
-          <path class="path1"
-            d="M742.4 
-            409.6h-25.6v-76.8c0-127.
-            043-103.357-230.4-230.4-
-            230.4s-230.4 103.357-230
-            .4 230.4v76.8h-25.6c-42.
-            347 0-76.8 34.453-76.8 
-            76.8v409.6c0 42.347 
-            34.453 76.8 76.8 
-            76.8h512c42.347 0 
-            76.8-34.453 76.8-76
-            .8v-409.6c0-42.347-34
-            .453-76.8-76.8-76.8zM307.
-            2 332.8c0-98.811 80.389-179
-            .2 179.2-179.2s179.2 80.389
-              179.2 179.2v76.8h-358.4v-76
-              .8zM768 896c0 14.115-11.485 
-              25.6-25.6 25.6h-512c-14.115 
-              0-25.6-11.485-25.6-25.6v-409
-              .6c0-14.115 11.485-25.6 25.
-              6-25.6h512c14.115 0 25.6 
-              11.485 25.6 25.6v409.6z">
-          </path>
-        </svg>
-		<i class="bi bi-lock"></i><input type="password" 
-    class="pass-input" placeholder="password" name ="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" 
-	title="Must contain at least one number and one uppercase and lowercase letter, and at least 6 or more characters" required maxlength="6" /></div>
+        <p class="error"><?php echo $_GET['error']; ?></p>
 
-    </div>
+      <?php } ?>
 
-    <button class="sign-btn">Login</button>
+      <div class="form-wrapper">
 
-    <div class="link">
-
-      <h4>Don't have account ??  <a href="usersignup.php">create account</a></h4>
-
-    </div>
-
-  </div>
+        <div class="heading">Login Form</div>
 
 
-     </form>
-</center>
+        <div class="input-text">
+
+          <div class="username">
+            <span>&#128222;</span>
+            <input type="tel" class="user-input"
+              placeholder="mobile number" name="mobile_no" maxlength="13" pattern="[+]{1}[0-9]{2}[0-9]{10}" required />
+            <h6> Format: +919812345678</h6>
+          </div>
+
+          <div class="password"><svg fill="#999"
+              viewBox="0 0 1024 1024">
+              <path class="path1"
+                d="M742.4 409.6h-25.6v-76.8c0-127.043-103.357-230.4-230.4-230.4s-230.4 103.357-230.4 230.4v76.8h-25.6c-42.347 0-76.8 34.453-76.8 76.8v409.6c0 42.347 34.453 76.8 76.8 76.8h512c42.347 0 76.8-34.453 76.8-76 .8v-409.6c0-42.347-34 .453-76.8-76.8-76.8zM307. 2 332.8c0-98.811 80.389-179 .2 179.2-179.2s179.2 80.389 179.2 179.2v76.8h-358.4v-76 .8zM768 896c0 14.115-11.485  25.6-25.6 25.6h-512c-14.115 0-25.6-11.485-25.6-25.6v-409 .6c0-14.115 11.485-25.6 25. 6-25.6h512c14.115 0 25.6 11.485 25.6 25.6v409.6z">
+              </path>
+            </svg>
+            <i class="bi bi-lock"></i><input type="password"
+              class="pass-input" placeholder="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"
+              title="Must contain at least one number and one uppercase and lowercase letter, and at least 6 or more characters" />
+          </div>
+
+        </div>
+
+        <button class="sign-btn">Login</button>
+
+        <div class="link">
+
+          <h4>Don't have account ?? <a href="usersignup.php">create account</a></h4>
+
+        </div>
+
+      </div>
+
+
+    </form>
+  </center>
 </body>
 
 </html>
 
-<?php 
+<?php
 include "db_connect.php";
 
 if (isset($_POST['mobile_no']) && isset($_POST['password'])) {
 
-    function validate($data){
+  function validate($data)
+  {
 
-       $data = trim($data);
+    $data = trim($data);
 
-       $data = stripslashes($data);
+    $data = stripslashes($data);
 
-       $data = htmlspecialchars($data);
+    $data = htmlspecialchars($data);
 
-       return $data;
+    return $data;
+  }
 
-    }
+  $mobile_no = validate($_POST['mobile_no']);
 
-    $mobile_no = validate($_POST['mobile_no']);
+  $pass = validate($_POST['password']);
 
-    $pass = validate($_POST['password']);
+  if (empty($mobile_no)) {
 
-    if (empty($mobile_no)) {
+    header("Location: login.php?error=mobile_no is required");
 
-        header("Location: login.php?error=mobile_no is required");
+    exit();
+  } else if (empty($pass)) {
 
-        exit();
+    header("Location: login.php?error=Password is required");
 
-    }else if(empty($pass)){
+    exit();
+  } else {
 
-        header("Location: login.php?error=Password is required");
+    $sql = "SELECT * FROM user WHERE mobile_no='$mobile_no' AND password='$pass'";
 
-        exit();
+    $result = mysqli_query($conn, $sql);
 
-    }else{
+    if (mysqli_num_rows($result)) {
 
-        $sql = "SELECT * FROM user WHERE mobile_no='$mobile_no' AND password='$pass'";
+      $row = mysqli_fetch_assoc($result);
 
-        $result = mysqli_query($conn, $sql);
+      if ($row['mobile_no'] == $mobile_no && $row['password'] == $pass) {
 
-        if (mysqli_num_rows($result)) {
-
-            $row = mysqli_fetch_assoc($result);
-
-            if ($row['mobile_no'] == $mobile_no && $row['password'] == $pass) {
-
-               echo"<script type='text/javascript'>alert('Login successful');
+        echo "<script type='text/javascript'>alert('Login successful');
 			   window.location.assign('userhomepage.php')</script>";
 
-                $_SESSION['mobile_no'] = $row['mobile_no'];
+        $_SESSION['mobile_no'] = $row['mobile_no'];
 
-                $_SESSION['user_name'] = $row['user_name'];
+        $_SESSION['user_name'] = $row['user_name'];
 
-                $_SESSION['user_id'] = $row['user_id'];
-				
-             
+        $_SESSION['user_id'] = $row['user_id'];
 
-                exit();
 
-            }else{
 
-               echo"<script type='text/javascript'>alert('Login failed');
+        exit();
+      } else {
+
+        echo "<script type='text/javascript'>alert('Login failed');
 			   window.location.assign('login.php')</script>";
 
-                exit();
+        exit();
+      }
+    } else {
 
-            }
-
-        }else{
-
-            echo"<script type='text/javascript'>alert('Login failed');
+      echo "<script type='text/javascript'>alert('Login failed');
 			   window.location.assign('login.php')</script>";
 
-            exit();
-
-        }
-
+      exit();
     }
-
-}else{
-exit();
+  }
+} else {
+  exit();
 }

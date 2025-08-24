@@ -30,7 +30,7 @@
   overflow:hidden ;
   margin:10;
   padding:0;
-  background-color: #82E0AA; //box sizing:border-box
+  background-color: #82E0AA; 
 }
 
 .topnav a {
@@ -60,7 +60,7 @@
 	  padding:30px 50px;
 	  text-align: left;
 	  text-decoration:none;
-	  dispaly:inline-block;
+	  display:inline-block;
 	  font-size:16px;
 	  margin:4px 2px;
 	  cursor:pointer;
