@@ -60,7 +60,8 @@ if (isset($_POST['admin_id']) && isset($_POST['password'])) {
 
       width: 100%;
 
-      overflow: hidden;
+      overflow-x: hidden;
+      overflow-y: auto;
 
       font-family: 'Montserrat', sans-serif;
 
