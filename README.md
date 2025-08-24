@@ -11,27 +11,27 @@ This project was developed as a team project with the goal of creating a digital
 
 ## Features
 ### User Module
--Register and log in to the system.
--Request fuel.
--View request status and fuel station details.
+- Register and log in to the system.
+- Request fuel.
+- View request status and fuel station details.
 
 ### Admin Module
--Register and log in to the system.
--Manage fuel station records (add/edit/delete).
--View and handle user requests.
--Maintain database of shops and users.
+- Register and log in to the system.
+- Manage fuel station records (add/edit/delete).
+- View and handle user requests.
+- Maintain database of shops and users.
 
 ## Tech Stack
--Frontend: HTML, CSS
--Backend: PHP
--Database: MySQL
--Deployment: Render (App), Clever-Cloud (Database)
+- Frontend: HTML, CSS
+- Backend: PHP
+- Database: MySQL
+- Deployment: Render (App), Clever-Cloud (Database)
 
 ## Future Enhancements
--GPS integration for locating nearest fuel station.
--SMS/email notifications for request status.
--Mobile app version.
--Analytics dashboard for admins.
+- GPS integration for locating nearest fuel station.
+- SMS/email notifications for request status.
+- Mobile app version.
+- Analytics dashboard for admins.
 
 ## Team Contribution
 This project was built as a team project.
