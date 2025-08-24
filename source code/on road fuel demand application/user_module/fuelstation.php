@@ -112,7 +112,7 @@ $res = mysqli_query($con, $sql);
 <?php
 if (isset($_POST['search'])) {
   $d = $_POST['fuel'];
-  $query = mysqli_query($con, "SELECT * FROM work_details WHERE shop_id='$d'");
+  $query = mysqli_query($conn, "SELECT * FROM work_details WHERE shop_id='$d'");
 
 ?>
   <html>
